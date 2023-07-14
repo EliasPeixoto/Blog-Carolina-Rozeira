@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Open+Sans&display=swap');
+
+*
+{
+    margin: 0;
+    border: 0;
+}
+nav
+{
+    padding: 15px;
+    background-color: #E8E3DE;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navElements
+{
+    flex-grow: 4;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.navElements__name
+{
+    font-family: 'Baskervville', serif;
+    font-size: 24px;
+    
+}
+.navElements__links
+{
+    font-family: 'Baskervville', serif;
+    font-size: 14px;
+}
+body
+{
+    color:#A67665;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+}
+header
+{
+    
+    background-image:url('../assets/folha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 362px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.headerElements
+{   opacity: 0.5;
+    background-color: #E8E3DE;
+    height:50%;
+    width:35%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+.headerElements__text1
+{
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-size: 20px;
+
+}
+.headerElements__text2
+{
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.headerElements__button
+{
+    width: 100px;
+    height: 25px;
+    border: 1px solid #A67665;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerElements__button__link
+{
+    text-decoration: none;
+    font-family: 'Baskervville', serif;
+    font-size: 10px;
+
+}
+main
+{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contentTitle
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.consumedContent
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.consumedContent--imgScaling
+{
+    width:92px;
+    height: 125px;
+    padding:15px;
+}
+.personalSpace
+{
+    display:flex;
+    margin: 10%;
+}
+.personalSpace__posts
+{
+    display:flex;
+    flex-wrap: wrap;  
+}
+.personalSpace__posts__container
+{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 222px;
+}
+.personalSpace__posts__container__tag
+{
+    color:gray;
+}
+h3
+{
+    font-size: 12px;
+}
+.personalSpace__posts__container__descriptions
+{
+    font-size: 10px;
+}
+.personalSpace__infoBox
+{
+    background-color:#E8E3DE;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+}
+.personalSpace__infoBox__content
+{
+    padding-bottom:10px;
+}
+.personalSpace__infoBox__content--mask
+{
+    display: flex;
+    justify-content: center;
+    -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0) 50%);
+    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+}
+.personalSpace__infoBox__content__text
+{
+    font-size: 12px;
+    text-align: center;
+}
+.personalSpace__infoBox__lastWatched
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px ;
+}
+.personalSpace__infoBox__lastWatched__bContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.personalSpace__infoBox__lastWatched__bContainer__button
+{
+    border-radius: 5px;
+    text-align: center;
+    background-color: purple;
+    color:white;
+    width: 100px;
+    height: 25px;
+}
+.personalSpace__infoBox__contentContainer
+{
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+}
+footer
+{
+    height: 10vh;
+}
