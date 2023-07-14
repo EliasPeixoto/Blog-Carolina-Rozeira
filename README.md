@@ -1,3 +1,3 @@
 # Pagina do Blog da Carolina Rozeira
 
-Status: Em Desenvolvimento.
+Estado: Em Desenvolvimento.
