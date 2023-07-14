@@ -1,1 +1,3 @@
-# Blog-Carolina-Rozeira
+# Pagina do Blog da Carolina Rozeira
+
+Status: Em Desenvolvimento.
